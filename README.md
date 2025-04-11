@@ -112,7 +112,14 @@ This integration uses **OAuth 2.0 (Resource Owner Password Credentials Grant)** 
 - Bulk limits apply for large operations.
 
 
+## 🧪 Testing (Jest)
 
+Basic unit tests included under `__tests__/salesforceService.test.js` using Jest.
+
+Run with:
+```bash
+npm test
+```
 
 ## 📎 Assumptions and Edge Cases
 
