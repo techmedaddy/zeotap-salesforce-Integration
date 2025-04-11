@@ -121,6 +121,9 @@ Run with:
 npm test
 ```
 
+![WhatsApp Image 2025-04-11 at 15 58 31_51584986](https://github.com/user-attachments/assets/1fc180e9-171e-42dc-ba13-9d599c9dadfb)
+
+
 ## 📎 Assumptions and Edge Cases
 
 - A contact is assumed to exist in Salesforce if an `id` is provided.
