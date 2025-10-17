@@ -1,22 +1,24 @@
 {
   "name": "zeotap-salesforce-integration",
   "version": "1.0.0",
-  "description": "A simulated integration between Zeotap and Salesforce Service Cloud Contact object using Node.js and Express.",
+  "description": "Simulated integration between Zeotap and Salesforce Service Cloud Contact object using Node.js and Express.",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "dev": "nodemon app.js"
+    "dev": "nodemon app.js",
+    "test": "jest"
   },
   "keywords": [
     "salesforce",
+    "zeotap",
     "integration",
     "nodejs",
     "express",
-    "zeotap",
     "api",
-    "contact-sync"
+    "contact-sync",
+    "oauth"
   ],
-  "author": "Your Name",
+  "author": "Tej Pratap Singh",
   "license": "MIT",
   "dependencies": {
     "axios": "^1.6.7",
@@ -24,6 +26,10 @@
     "express": "^4.18.4"
   },
   "devDependencies": {
+    "jest": "^29.7.0",
     "nodemon": "^3.1.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
   }
 }

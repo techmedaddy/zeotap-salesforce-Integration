@@ -6,3 +6,7 @@ const { syncContact } = require("../controllers/contactController");
 router.post("/sync-contact", syncContact);
 
 module.exports = router;
+// POST endpoint to simulate syncing contact data from Zeotap to Salesforce
+router.post("/sync-contact", syncContact);
+
+module.exports = router;
